@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rocket_league</title>
+  <link rel="icon" href="download.jpg" type="image/x-icon">
+  <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <script defer async src="main.js"></script>
+</head>
+
+ <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Rocket League</h1>
+      <ul class="menu">
+        <li><a href="main.html">Início</a></li>
+        <li><a href="https://store.epicgames.com/pt-BR/p/rocket-league">Jogar</a></li>
+        <li><a href="https://discord.gg/RzRkqNZxsg">Comunidade</a></li>
+        <li><a href="https://www.epicgames.com/help/pt-BR/rocket-league-c5719357623323">Suporte</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<button class="menu-hamburger"></button>
+<div class="bg"></div>
+
+
+<div>
+
+<nav class="main-menu">
+    <a href="#anchor_1">
+        <span class="material-symbols-outlined">
+          arrow_upward
+        </span>
+        inicio
+    </a>
+    <a href="#anchor_2">
+        <span class="material-symbols-outlined">
+          <span class="material-symbols-outlined">
+            arrow_downward
+            </span>
+        </span>
+        final
+    </a>
+
+</nav>
+<div class="video-container" id="anchor_1">
+<video width="10%" controls autoplay loop muted controls="false" id="videoPlayer">
+    <source src="principal.mp4" type="video/mp4">
+  </video>
+
+<div class="texto1">
+  <h1>TEMPORADA 12</h1>
+  <p>A Temporada 12 apresenta o Porsche 911 Turbo,
+     recompensas Rocket Pass iradas e a variante da Arena Neo Tokyo (Hackeada).</p>
+</div>
+  <div class="modal-and-dialog">
+    <div class="modal-content">
+
+      <button class="bt-modal">SAIBA MAIS</button>
+    </div>
+    <div class="dialog-content">
+      <button class="bt-dialog">ASSISTIR TRAILER</button>
+    </div>
+  </div>
+</div>
+    <main>
+        <dialog id="dialog1">
+            <form>
+                <h1>ATENÇÃO!  </h1>
+                <p>Você gostaria de ser redirecionado para outro site ?</p>
+                <div class="action">
+                    <div data-theme="dark" id="button" class="fechar1">Cancelar</div>
+                    <a href="https://youtu.be/kB9uftJxxx4?si=Re1Vr5ALyGwToLA9" target="_blank"> <input type="button" id="button" value="continuar"></a>
+                </div>
+            </form>
+        </dialog>
+
+        <dialog id="dialog2">
+          <form>
+              <h1>Resumo do jogo</h1>
+              <p>Rocket League é um jogo de esportes desenvolvido pela Psyonix, onde os jogadores controlam carros para jogar futebol em uma arena. Lançado inicialmente em 2015, o jogo ganhou popularidade rapidamente devido à sua jogabilidade única e emocionante.</p>
+              <p>Em essência, o objetivo é simples: marcar gols com uma bola de tamanho considerável usando carros altamente manobráveis ​​e ágeis. A habilidade de dirigir, saltar, impulsionar e fazer acrobacias com os carros são essenciais para controlar a bola e marcar gols.</p>
+              <p>Além do modo principal de futebol, existem várias variações e modos de jogo, incluindo partidas casuais, competitivas, modos de treinamento e desafios com temas sazonais. O jogo também oferece personalização extensiva, permitindo que os jogadores modifiquem seus carros com uma variedade de itens cosméticos.</p>
+              <p>Rocket League se tornou um sucesso nos eSports, com torneios competitivos, campeonatos regionais e até mesmo eventos globais de grande escala. Sua jogabilidade acessível, combinada com um alto nível de habilidade e estratégia, o tornou um fenômeno tanto para jogadores casuais quanto para competidores profissionais.</p>
+              <p>VOCÊ GOSTARIA DE SABER MAIS SOBRE O JOGO ?</p>
+              
+              
+              <div class="action">
+                  <div data-theme="dark" id="button" class="fechar2">sair</div>
+                  <a href="https://rocketleague.fandom.com/wiki/Rocket_League_Wiki" target="_blank"> <input type="button" id="button" value="mais"></a>
+                 
+              </div>
+          </form>
+      </dialog>
+        <section>
+           
+ 
+</header>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background: linear-gradient(to bottom, #023f7c, #66ccff);
+      color: #fff;
+      font-weight: 700!important;
+      padding: 200px;
+      text-align: center;
+    }
+
+   
+
+    .item {
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to bottom, rgb(255, 136, 0), #ffd666);
+      width: 100%;
+      height:  auto;
+      flex: 1;
+    }
+
+    .item img {
+      width: 60%;
+      height: auto;
+      float: left;
+      margin-right: 20px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .item-info {
+      flex: 1;
+      text-align: left;
+      padding: 20px;
+    }
+
+    .item-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-size: 36px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    
+
+    .item-desc {
+      font-size: 28px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+      text-align: left;
+    }
+    
+
+    .item-date {
+      font-size: 14px;
+      color: #777;
+    }
+
+   /*img 2*/
+
+    .search-results1 {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .imagem {
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to bottom, #0084f0, #66ccff);
+      width: 100%;
+      height:  auto;
+      flex: 1;
+    }
+
+    .imagem img {
+      width: 60%;
+      height: auto;
+      
+      max-width: 100%;
+    }
+
+    .infoma {
+      flex: 1;
+      text-align: left;
+      padding: 20px;
+    }
+
+    .titulo {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-size: 36px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    .paragrafo {
+      font-size: 32px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    
+  </style>
+ 
+
+  
+  <div class="parte">
+    <div class="header">
+      <h1>Este é o Rocket League!</h1>
+      <p>Bem-vindo ao jogo de alta potência, estilo arcade de futebol e caos automobilístico!
+        Personalize seu carro, entre em campo e compita em um dos jogos de esportes mais aclamados pela crítica de todos os tempos!</p>
+    </div>
+    
+
+   </div>
+    <div class="imagem1">
+      <div class="item"> <img src="rl_20009273_2987263422.png" >
+        <div class="item-info">
+          <h2 class="item-title">Porsche 911 Turbo</h2>
+          <p class="item-desc"> Esta temporada, um hacktivista misterioso chamado Zero-Day deixou as sombras, assumindo
+            o controle do Neo Tokyo Arena. Encontre seu lugar em um mundo de decaimento digital com o Rocket Pass
+            Premium e ganhe dezenas de novos itens, incluindo o Porsche 911 Turbo. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+    <div class="imagem2">
+      <div class="imagem">
+        <div class="infoma">
+          <h2 class="titulo">NÍVEL ACIMA</h2>
+          <p class="paragrafo">Alcance o nível 70 e além! Comece a desbloquear itens dos níveis Pro para obter versões pintadas de itens selecionados do Rocket Pass e troque-os com amigos</p>
+          
+        </div>
+        <img src="RP4_jiov92nm.png" alt="Rocket League">
+      </div>
+    </div>
+    
+ 
+    <div id="anchor_2" class="final">
+      <img src="3840x2160-px-Rocket-League-rocketleague-room108-1273255-wallhere.com.jpg" alt="">
+      
+    </div>
+  
+  
+</body>
+
+</html>
